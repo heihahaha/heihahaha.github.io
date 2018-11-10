@@ -1,0 +1,164 @@
+.big{
+	background: url(2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.daohang{
+	position: fixed;
+}
+a:link{
+	text-decoration: none;
+}
+span:hover{
+	color: red;
+	text-decoration: underline;
+	text-decoration-color:blue;
+}
+.q{
+	position: fixed;
+	left: 110px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.w{
+	position: fixed;
+	left: 160px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.e{
+	position: fixed;
+	left: 210px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.r{
+	position: fixed;
+	left: 260px;
+	top: 10px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.t{
+	position:fixed;
+	left: 310px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.y{
+	position:fixed;
+	left: 360px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.u{
+	position:fixed;
+	left: 410px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.i{
+	position: fixed;
+	left: 460px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.o{
+	position: fixed;
+	left: 510px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.p{
+	position:fixed;
+	left: 560px;
+	top: 15px;
+	color: grey;
+	letter-spacing: 1px;
+	font-family: STHeiti;
+}
+.denglu{
+	position: fixed;
+	right: 80px;
+	top: 10px;
+	background: #80808005;
+	width: 65px;
+	height: 30px;
+	border-radius: 10px;
+	color: white;
+	border:2px solid #ffffff7d;
+	letter-spacing: 1px;
+}
+.zhuce{
+	position: fixed;
+	right: 2px;
+	top: 10px;
+	background: #941313e3;
+	width: 65px;
+	height: 30px;
+	border-radius: 10px;
+	color: #ffffffe3;
+	border:2px solid #ffffff7d;
+	letter-spacing: 1px;
+}
+.z{
+	position: fixed;
+	top: 300px;
+	left: 0;
+	right: 0;
+	margin: auto auto;
+	text-align:center;
+	display: inline;
+		font-family:STHeiti;
+	font-size: 70px;
+	letter-spacing: 5px;
+	color: grey;
+}
+.bb{
+		position: fixed;
+	top: 460px;
+	left: 0px;
+	right: 0px;
+	margin: auto auto; 
+	width: 880px;
+	height:40px;
+	padding-left: 20px;
+}
+.c{
+	position: fixed;
+	top: 540px;
+	left: 0;
+	right: 0;
+	margin: auto auto;
+	text-align:center;
+		font-family:STHeiti;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #aaa599;
+}
+.c,a{
+	text-decoration: none;
+	color: white;
+}
+.d{
+	position: fixed;
+	top: 460px;
+	right: 510px;
