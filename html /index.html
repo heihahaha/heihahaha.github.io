@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>震惊！这个网页居然也可用震惊体</title>
+	<style type="text/css">
+    body{   
+/*    width: 100%;   
+    height: 100%;     
+    margin: 0;    
+    background:url(http://imgsrc.baidu.com/forum/pic/item/aac1971ed21b0ef4c5485f1bd0c451da80cb3ed3.jpg)  no-repeat center center;
+     background-size:cover;
+     background-attachment:fixed;*/
+     background-color:#060202cf;
+     font-family:"Microsoft Yahei";
+
+}   
+
+
+
+/*两个超链接plan B*/
+.yynj{
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542970794476&di=234dc680368035cd33fd0f4ea99021e3&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F94o3dSag_xI4khGko9WTAnF6hhy%2Flvpics%2Fh%3D800%2Fsign%3D7b7c0cf5a964034f10cdcf069fc27980%2Ff3d3572c11dfa9ecba94943f60d0f703918fc164.jpg");
+}
+.gucheng {
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542974628770&di=8caaed8c40fac6d7696400198aa6319d&imgtype=0&src=http%3A%2F%2Fyouimg1.c-ctrip.com%2Ftarget%2Ffd%2Ftg%2Fg5%2FM02%2F00%2F2B%2FCggYr1cfWlGAM7OVAB2qqHRY7Qc373.jpg");
+}
+h3{
+    color: white;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+ul {
+    text-align: center;
+}
+ul li {
+    /*float: left;*/
+    margin:auto;
+    width: 50%;
+    height: 300px;
+    box-shadow: 10px 10px 5px #000;
+    border-radius:25px;  /*来个圆角吧*/
+    overflow: hidden;       
+    /*当内容溢出元素框时内容会被修剪，并且其余内容是不可见的。*/
+}
+ul li a {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-size: 100% auto;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+ul li a:hover {
+    letter-spacing: 0.2em;
+    text-shadow: 0 0 10px #000;
+    background-size: 120% auto;
+/*    background-color: rgba(255, 127, 80, 0.5);*/
+    z-index: 999;
+}
+ul li a span {
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+ul li a span h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul li a .tint {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+/*    background: rgba(255, 255, 255, 0.5);*/
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+/*ul li a .tint:hover {
+    background: rgba(0, 128, 128, 0.5);
+}*/
+
+
+
+
+
+
+/*底部几个按钮*/
+.pulse:hover,
+.pulse:focus {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+.pulse {
+    --color: #ffffff78;
+    --hover: #ef8f6e;
+}
+
+
+button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+button:hover,
+button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+.buttons{
+    position: relative;
+    text-align: center;
+}
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+
+}
+
+
+
+
+/*中间的大字*/
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+/*    flex-direction: column;*/
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+}
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 140px;
+  /*  line-height: .75;*/
+    margin: 10px 0;
+
+}
+/* styling my button */
+
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #FFF;
+    -webkit-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+}
+.white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+}
+	</style>
+</head>
+<body>
+
+<div class="title">
+    <h1>旅行<br/>发现中国美</h1>
+</div>
+
+<ul>
+    <li><a href="jidao1.html" target="_blank"  class="yynj"><span>
+        <h3>云南</h3>
+        </span>
+      <div class="tint"></div></a>
+    </li>
+    <br/>
+    <br/><br/>
+    <li><a href="fhgc.html" target="_blank" class="gucheng"><span>
+        <h3>凤凰古城</h3>
+        </span>
+      <div class="tint"></div></a>
+    </li>
+</ul>
+<br/><!-- 无语为什么不能换行 -->
+<div>&nbsp</div>
+<br/>
+<div>&nbsp</div>
+<br/>
+<br/>
+<br/>
+<!-- 最底部 -->
+<div class="buttons">
+    <button class="pulse">发现世界</button>
+    <button class="pulse">咨询客服</button>
+    <button class="pulse">个人中心</button>
+    <button class="pulse">加入我们</button>
+
+</div>
+<br/><br/>
+<div style="text-align: center ; font-size: 14px; color: #888">
+    <div>Copyright © 2018 JIDAOSHIYAN. 当前呈现版本 18.11.23</div>
+    <div>小组成员：林梓鸿&nbsp&nbsp&nbsp&nbsp关建龙&nbsp&nbsp&nbsp&nbsp沈锦荣&nbsp&nbsp&nbsp&nbsp黄彩霞&nbsp&nbsp&nbsp&nbsp刘宝山&nbsp&nbsp&nbsp&nbsp肖佳宜</div>
+    <div>使用条款和隐私条款。版权所有，保留一切权利。</div>
+    
+</div>
+
+
+
+</body>
+</html>
