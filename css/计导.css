@@ -1,0 +1,261 @@
+body{
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542917915667&di=18c34c1c0385480025e9141d27576003&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-27%2F5a43411c8aaca.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: '微软雅黑';
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.music{
+	position: absolute;
+	left: 1270px;
+}
+#board{
+	height: 2300px;
+	width: 1000px;
+	margin-bottom: 8px;
+	background: rgba(255,255,255,0.43); 
+	position: absolute;
+	left: 16.5%;
+   
+}
+.title{
+	text-align: center;
+}
+.shi{
+	text-align: center;
+	line-height: 20px;
+    font-size: 17px;
+    font-family: '微软雅黑';
+    word-spacing: 10px;
+    text-shadow: 3px 3px 3px #888;
+}
+img{
+    border-radius: 5px;
+    height: 330px;
+	width: 550px;
+	box-shadow: 10px 10px 5px #888;
+}
+.fu{
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+	border: 1px solid black;
+    border-radius: 2px;
+	height: 27px;
+	width: 50px;
+	position: absolute;
+	left: 30px;
+}
+.fu:hover{
+	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+	background-color: #e2e2e2;
+}
+
+
+
+
+.kuai1{
+	margin-left: 210px;
+    height: 350px;
+    width: 600px;
+	position: absolute;
+	top:200px;
+	/*display: -webkit-flex;*/
+    /*display: flex;*/
+}
+.pgh11{
+    height: 350px;
+    width: 100px;
+	position: absolute; 
+	top: 10px;
+	left: 10px;
+}
+.pgh12{
+	position: absolute;
+}
+.pgh12:hover{
+	animation: suoxiao 2s;
+    -webkit-animation: suoxiao 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+.kuai2{
+	margin-left:210px;
+	margin-right: 230px;
+	position: absolute;
+	top: 580px;
+}
+.pgh21{
+	height: 350px;
+    width: 100px;
+	position: absolute; 
+	left: 450px;
+}
+.pgh22{
+	position: absolute;
+}
+.pgh22:hover{
+	animation: suoxiao2 2s;
+    -webkit-animation: suoxiao2 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+.kuai3{
+	margin-left: 210px;
+	margin-right: 230px;
+	position: absolute;
+	top: 960px;
+}
+.pgh31{
+	height: 350px;
+    width:150px;
+	margin-left: 10px;
+	position: absolute;
+	top:10px;
+}
+.pgh32{
+	height: 350px;
+    width: 150px;
+    margin-left: 400px;
+	position: absolute;
+    top:10px;
+}
+.pgh33{
+	position: absolute;
+}
+.pgh33:hover{
+	animation: matrix 2s;
+    -webkit-animation: matrix 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+.kuai4{
+	margin-left:210px;
+	margin-right: 230px;
+	height: 300px;
+	position: absolute;
+	top:1360px;
+	border-radius: 5px;
+}
+.pgh41{
+	height: 300px;
+	width: 550px;
+	position: absolute;
+	left: 4px;
+	top: 220px;
+	cursor: pointer;
+}
+.pgh42{
+    cursor: pointer;
+    position: absolute;
+}
+.pgh42:hover{
+    animation: suoxiao3 2s;
+    -webkit-animation: suoxiao3 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+.kuai5{
+    margin-left:210px;
+    margin-right: 230px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 1760px;
+}
+.pgh51{
+	box-shadow: 10px 10px 5px #888;
+	color: black;
+	margin-top: 0px;
+	padding: 0px 10px 10px 15px;
+	height: 440px;
+	width: 250px;
+	border-radius: 5px;
+	background-color: white;
+	position: absolute;
+    left: 570px;
+    top: -10px;
+    display: none;
+}
+.kuai5:hover .pgh51{
+	display: block;
+	
+}
+
+
+
+.person{
+	cursor: pointer;
+    width: 200px;
+	position: absolute;
+	top: 2200px;
+	left: 630px;
+}
+
+
+
+@keyframes suoxiao
+{
+	0%{}
+	100%{transform: translateX(120px);}
+}
+@keyframes wenzi{
+    0%{ transform: translateX(-1000px); opacity: 0;}   
+    100%{ transform: translateX(0px); opacity: 1;}
+}
+@keyframes suoxiao2
+{
+	0%{}
+	100%{transform: translateX(-120px);}
+}
+@keyframes suoxiao3
+{
+	0%{}
+	100%{transform: translateY(-110px);}
+}
+@keyframes matrix{
+	0%{}
+	100%{transform:matrix(0.5,0.5,-0.5,0.866,0,0);
+	-ms-transform:matrix(0.866,0.5,-0.5,0.866,0,0); /* IE 9 */
+	-webkit-transform:matrix(0.1,0.1,-0.1,1,10,10);}
+}
+@keyframes mou{
+    0%{}
+    100%{color: black;text-shadow: 5px 5px 5px  white;}
+}
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
